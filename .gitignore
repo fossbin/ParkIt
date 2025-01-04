@@ -1,0 +1,91 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+expo-debug.log
+
+# Expo and React Native files
+.expo/
+.expo-shared/
+web-build/
+.expo/web/
+*.jks
+
+# Node modules
+node_modules/
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*~
+
+# Packages
+*.tgz
+
+# Environment files
+#.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Expo related files
+dist/
+
+# React Native
+android/.gradle
+android/app/build/
+android/app/release/
+android/build/
+android/.idea
+android/.settings
+android/local.properties
+android/release/
+android/.cxx/
+android/captures/
+#android/**/*.keystore
+#android/gradle.properties
+#android/app/grade.build
+#android/app/src/main/res/values/strings.xml
+#android/app/src/main/AndroidManifest.xml
+
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/DerivedData/
+ios/*.xcodeproj/*
+ios/*.xcworkspace/
+ios/xcuserdata/
+ios/*.xcuserstate
+
+# Supabase
+supabase/.temp
+supabase/.cache
+supabase/.output
+supabase/.netlify
+
+# Ignore Supabase environment variables and secrets
+supabase/.env
+supabase/.env.local
+supabase/.env.production
+supabase/.env.test
+
+# Ignore lockfiles (optional)
+# package-lock.json
+# yarn.lock
